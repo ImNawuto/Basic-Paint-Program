@@ -107,25 +107,3 @@ def painter():
 painter()
 
 turtle.mainloop()
-
-"""
-def excolor(x, y):
-    color = ""
-    if x > 0 and y > 0:
-        color = "red"
-    elif x < 0 and y > 0:
-        color = "green"
-    elif x < 0 and y < 0:
-        color = "yellow"
-    else:
-        color = "blue"
-    player.color(color)
-    player.goto(x, y)
-
-
-def ex3():
-    screen.onclick(excolor)
-
-
-#ex3()
-"""
